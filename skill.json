@@ -1,0 +1,23 @@
+{
+  "name": "genpark-workflow-agent-scaffolder-ops-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Create skeleton templates for workflows.",
+  "author": "genpark",
+  "category": "operations",
+  "tags": [
+    "workflow",
+    "scaffolding"
+  ],
+  "inputs": {
+    "template_name": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "scaffold_path": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
